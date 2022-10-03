@@ -47,9 +47,9 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
   <summary><strong>‼️ Antes de começar a desenvolver</strong></summary><br />
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-0x-project-carta-misteriosa.git`
+  * `git clone git@github.com:tryber/sd-027-b-project-carta-misteriosa.git`
   * Entre na pasta do repositório que você acabou de clonar:
-    * `sd-0x-project-carta-misteriosa`
+    * `sd-027-b-project-carta-misteriosa`
 
 2. Instale as dependências
     * `npm install`
@@ -79,13 +79,13 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
   * Usando o exemplo anterior: `git push -u origin joaozinho-project-carta-misteriosa`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-carta-misteriosa/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-027-b-project-carta-misteriosa/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-carta-misteriosa/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-027-b-project-carta-misteriosa/pulls) e confira que o seu _Pull Request_ está criado
 
 </details>
 
@@ -113,7 +113,7 @@ Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus co
 * Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
   * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
   * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-027-b`
 
 Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
