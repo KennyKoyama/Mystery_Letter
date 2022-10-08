@@ -64,3 +64,7 @@ header {
 .skewleft {
   transform: matrix(1, 0, 0.176327, 1, 0, 0);
 }
+
+.skewright {
+  transform: matrix(1, 0, -0.176327, 1, 0, 0);
+}
