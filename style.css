@@ -31,4 +31,9 @@ header {
   text-transform: uppercase;
 }
 
-
+.magazine2 {
+  background-image: 'images/pink-pattern.png';
+  color: rgb(255, 0, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
