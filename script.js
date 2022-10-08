@@ -5,6 +5,11 @@ const createSpan = () => document.createElement('span');
 const appendSpan = (word) => letterContent.appendChild(word);
 
 createButton.addEventListener('click', () => {
+  const errorMessage = 'Por favor, digite o conteúdo da carta.';
+  if (textInput.value.trim().length === 0) {
+    letterContent.innerHTML = errorMessage;
+    return;
+  }
   letterContent.innerHTML = '';
   const splittedText = textInput.value.split(' ');
   splittedText.forEach((word) => {
