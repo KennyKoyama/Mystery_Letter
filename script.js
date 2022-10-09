@@ -30,6 +30,7 @@ createButton.addEventListener('click', () => {
     newSpan.classList.add(randomStyle(), randomSize(), randomRotate(), randomSkew());
     appendSpan(newSpan);
   });
+  letterContent.classList.add('padding');
   wordCounter.innerHTML = letterContent.childElementCount;
 });
 

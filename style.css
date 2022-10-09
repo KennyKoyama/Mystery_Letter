@@ -10,11 +10,13 @@ body {
   align-items: center;
   gap: 2em;
   justify-content: center;
-  border: 1px solid black;
+  background-color: saddlebrown;
 }
 
 header {
   padding: 2em;
+  color: antiquewhite;
+  text-shadow: 3px 3px 2px black;
 }
 
 main {
@@ -24,7 +26,8 @@ main {
   align-items: center;
   justify-content: center;
   gap: 2em;
-  border: 1px solid black;
+  background-color: antiquewhite;
+  box-shadow: 0 0 5px black;
 }
 
 #text-input-container {
@@ -36,11 +39,20 @@ main {
   padding: 2em;
   width: 90%;
   margin-top: 2em;
+  background-color: darkgoldenrod;
+  box-shadow: inset 0 0 5px black;
+  color: beige;
+  border-radius: 0 0 300px 300px;
+  text-shadow: 1px 1px 2px black;
 }
 
 button {
   width: fit-content;
   padding: 1em;
+  background-color: brown;
+  color: beige;
+  font-weight: 600;
+  border-radius: 0 10px;
 }
 
 #carta-texto {
@@ -53,6 +65,13 @@ button {
   align-items: center;
   justify-content: center;
   gap: 1em;
+  margin: 2em;
+  box-shadow: 0 0 5px black;
+  background-color: beige;
+}
+
+.padding {
+  padding: 2em;
 }
 
 #counter-container {
@@ -116,4 +135,11 @@ button {
 
 h2 {
   text-align: center;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  padding: 1em 1em 1.5em 0;
+  justify-content: end;
 }
