@@ -17,6 +17,24 @@ header {
   padding: 2em;
 }
 
+main {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  border: 1px solid black;
+}
+
+#letter-container > p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
 .newspaper {
   font-family: 'Times New Roman', Times, serif;
   font-weight: 700;
