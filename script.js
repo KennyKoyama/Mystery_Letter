@@ -30,3 +30,9 @@ createButton.addEventListener('click', () => {
     appendSpan(newSpan);
   });
 });
+
+letterContent.addEventListener('click', (event) => {
+  const chosen = event.target;
+  if (chosen.tagName !== 'SPAN') return;
+  chosen.className = `${randomStyle()} ${randomSize()} ${randomRotate()} ${randomSkew()}`;
+});
