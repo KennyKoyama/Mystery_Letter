@@ -27,12 +27,39 @@ main {
   border: 1px solid black;
 }
 
+#text-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  border: 1px solid;
+  padding: 2em;
+  width: 90%;
+  margin-top: 2em;
+}
+
+button {
+  width: fit-content;
+  padding: 1em;
+}
+
+#carta-texto {
+  width: 90%;
+}
+
 #letter-container > p {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 1em;
+}
+
+#counter-container {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
 }
 
 .newspaper {
@@ -85,4 +112,8 @@ main {
 
 .skewright {
   transform: matrix(1, 0, -0.176327, 1, 0, 0);
+}
+
+h2 {
+  text-align: center;
 }

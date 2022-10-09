@@ -1,6 +1,7 @@
 const textInput = document.querySelector('#carta-texto');
 const createButton = document.querySelector('#criar-carta');
 const letterContent = document.querySelector('#carta-gerada');
+const wordCounter = document.querySelector('#carta-contador');
 const styles = ['newspaper', 'magazine1', 'magazine2'];
 const sizes = ['medium', 'big', 'reallybig'];
 const rotates = ['rotateleft', 'rotateright'];
@@ -29,6 +30,7 @@ createButton.addEventListener('click', () => {
     newSpan.classList.add(randomStyle(), randomSize(), randomRotate(), randomSkew());
     appendSpan(newSpan);
   });
+  wordCounter.innerHTML = letterContent.childElementCount;
 });
 
 letterContent.addEventListener('click', (event) => {
